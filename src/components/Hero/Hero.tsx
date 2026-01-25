@@ -21,18 +21,18 @@ export default function Hero() {
       {/* Grain texture */}
       <div className="absolute inset-0 grain-overlay opacity-50" />
 
-      {/* Decorative lines */}
+      {/* Decorative lines - hidden on mobile */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1.5, delay: 0.5 }}
-        className="absolute top-32 left-8 md:left-16 w-px h-32 bg-gradient-to-b from-transparent via-[#493A77]/30 to-transparent"
+        className="hidden md:block absolute top-32 left-16 w-px h-32 bg-gradient-to-b from-transparent via-[#493A77]/30 to-transparent"
       />
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1.5, delay: 0.7 }}
-        className="absolute bottom-32 right-8 md:right-16 w-px h-48 bg-gradient-to-b from-transparent via-[#493A77]/30 to-transparent"
+        className="hidden md:block absolute bottom-32 right-16 w-px h-48 bg-gradient-to-b from-transparent via-[#493A77]/30 to-transparent"
       />
 
       {/* Content */}
