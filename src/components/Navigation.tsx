@@ -146,7 +146,7 @@ export default function Navigation() {
               >
                 FAQ
               </a>
-              <div className="pt-8 border-t border-[#E8E4DC]">
+              <div className="pt-8">
                 <a
                   href="https://tally.so/r/LZPJjz"
                   target="_blank"
