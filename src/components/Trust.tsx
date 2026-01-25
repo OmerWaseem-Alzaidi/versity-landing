@@ -186,22 +186,7 @@ export default function Trust() {
                   </div>
                   <div style={{ fontSize: '14px', color: '#6B7280' }}>Active Users</div>
                 </div>
-                <div>
-                  <div
-                    style={{
-                      fontSize: '40px',
-                      fontWeight: 700,
-                      color: '#493A77',
-                      lineHeight: 1,
-                      marginBottom: '8px',
-                      fontFamily: 'system-ui, -apple-system, sans-serif',
-                    }}
-                  >
-                    <AnimatedCounter target={0} duration={2} />
-                  </div>
-                  <div style={{ fontSize: '14px', color: '#6B7280' }}>Security Incidents</div>
-                </div>
-              </div>
+                              </div>
             </motion.div>
 
             {/* Right Column - Cards */}
