@@ -271,15 +271,15 @@ export default function HowItWorks() {
               Available on iOS and Android
             </p>
 
-            <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '16px' }}>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
               {/* App Store Badge */}
               <a href="https://tally.so/r/LZPJjz" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity duration-300">
                 <Image
                   src="/badges/app-store.svg"
                   alt="Download on the App Store"
-                  width={160}
-                  height={48}
-                  style={{ height: '48px', width: 'auto' }}
+                  width={150}
+                  height={45}
+                  className="w-[150px] sm:w-[135px] h-auto sm:h-[45px] object-contain"
                 />
               </a>
 
@@ -288,9 +288,9 @@ export default function HowItWorks() {
                 <Image
                   src="/badges/google-play.svg"
                   alt="Get it on Google Play"
-                  width={160}
-                  height={48}
-                  style={{ height: '48px', width: 'auto' }}
+                  width={150}
+                  height={45}
+                  className="w-[150px] sm:w-[152px] h-auto sm:h-[45px] object-contain"
                 />
               </a>
             </div>

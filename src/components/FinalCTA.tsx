@@ -103,21 +103,16 @@ export default function FinalCTA() {
 
               {/* App Store Badges */}
               <div
-                style={{
-                  display: 'flex',
-                  flexWrap: 'wrap',
-                  justifyContent: 'center',
-                  gap: '16px',
-                  marginBottom: '40px',
-                }}
+                className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4"
+                style={{ marginBottom: '40px' }}
               >
                 <a href="https://tally.so/r/LZPJjz" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity duration-300">
                   <Image
                     src="/badges/app-store.svg"
                     alt="Download on the App Store"
-                    width={140}
-                    height={42}
-                    style={{ height: '42px', width: 'auto' }}
+                    width={135}
+                    height={40}
+                    className="w-[150px] sm:w-[120px] h-auto sm:h-[40px] object-contain"
                   />
                 </a>
 
@@ -125,9 +120,9 @@ export default function FinalCTA() {
                   <Image
                     src="/badges/google-play.svg"
                     alt="Get it on Google Play"
-                    width={140}
-                    height={42}
-                    style={{ height: '42px', width: 'auto' }}
+                    width={135}
+                    height={40}
+                    className="w-[150px] sm:w-[135px] h-auto sm:h-[40px] object-contain"
                   />
                 </a>
               </div>
