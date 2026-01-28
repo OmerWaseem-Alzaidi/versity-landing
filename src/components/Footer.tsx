@@ -65,7 +65,7 @@ export default function Footer() {
                 style={{ display: 'inline-flex', alignItems: 'center', gap: '12px', marginBottom: '24px' }}
               >
                 <Image
-                  src="/logos/logo_white_only.png"
+                  src="/logos/logo_white_only.svg"
                   alt="Versity"
                   width={56}
                   height={56}

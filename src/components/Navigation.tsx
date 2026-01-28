@@ -34,7 +34,7 @@ export default function Navigation() {
             {/* Logo */}
             <a href="/" className="flex items-center gap-3">
               <Image
-                src="/logos/logo_purple_only.png"
+                src="/logos/logo_purple_only.svg"
                 alt="Versity"
                 width={56}
                 height={56}

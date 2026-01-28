@@ -41,8 +41,8 @@ export const metadata: Metadata = {
 
   // Favicon
   icons: {
-    icon: "/logos/logo_purple_only.png",
-    apple: "/logos/logo_purple_only.png",
+    icon: "/logos/logo_purple_only.svg",
+    apple: "/logos/logo_purple_only.svg",
   },
 };
 

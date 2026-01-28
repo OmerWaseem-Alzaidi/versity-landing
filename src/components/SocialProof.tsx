@@ -4,15 +4,15 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 
 const universities = [
-  { name: 'Koç University', logo: '/universities/Koç_University.png' },
+  { name: 'Koç University', logo: '/universities/Koc_University.svg' },
   { name: 'Sabancı University', logo: '/universities/Sabancı_University.svg' },
   { name: 'Bahçeşehir University', logo: '/universities/Bahçeşehir_University.svg' },
   { name: 'Bilgi University', logo: '/universities/İstanbul_Bilgi_Üniversitesi.svg' },
-  { name: 'Özyeğin University', logo: '/universities/Ozyegin_University.png' },
-  { name: 'Altınbaş University', logo: '/universities/Antinbas_University.png' },
-  { name: 'Haliç University', logo: '/universities/Haliç_University.png' },
-  { name: 'Medipol University', logo: '/universities/Istanbul_Medipol_University.png' },
-  { name: 'Atlas University', logo: '/universities/Atlas_University.png' },
+  { name: 'Özyeğin University', logo: '/universities/Ozyegin_University.svg' },
+  { name: 'Altinbas University', logo: '/universities/Altinbas_University.svg' },
+  { name: 'Haliç University', logo: '/universities/Haliç_University.svg' },
+  { name: 'Medipol University', logo: '/universities/Istanbul_Medipol_University.svg' },
+  { name: 'Atlas University', logo: '/universities/Atlas_University.svg' },
   { name: 'İstinye University', logo: '/universities/İstinye_Üniversitesi.svg' },
 ];
 
